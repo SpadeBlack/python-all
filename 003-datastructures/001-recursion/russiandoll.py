@@ -3,6 +3,10 @@ def openRussianDoll(doll):
     if doll == 1:
         print("All dolls are opened")
     else:
+        print("Recurse", doll)
         openRussianDoll(doll-1)
 
-openRussianDoll(4)
+try: 
+    openRussianDoll(5)
+except:
+    print("loll")
