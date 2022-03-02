@@ -1,3 +1,4 @@
+import class_module as cm
 fruits = ["apple", "banana", "cherry", "banana", "banana", "banana", "banana"]
 
 for x in fruits:
@@ -26,3 +27,6 @@ def my_function(**kid):
   print("His last name is " + kid["lname"])
 
 my_function(fname = "Tobias", lname = "Refsnes")
+
+p=cm.Person("John Wick",29)
+p.allDetailsWith_ListArguments( "Serious", "Caring", "Killed boogey man " )
